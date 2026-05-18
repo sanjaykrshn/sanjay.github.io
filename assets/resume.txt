@@ -1,0 +1,44 @@
+SANJAY KRISHNAN
+sanjaykrishnan2026@gmail.com •  817-524-8921 •  Fort Worth, TX
+
+SUMMARY
+Computer Science student at UT Austin with hands-on experience in programming, software development, IT operations, and mobile app/game development.
+
+EDUCATION
+
+The University of Texas at Austin – B.S. Computer Science	
+Austin, TX 
+V.R. Eaton High School – Salutatorian	                               
+Fort Worth, TX | Relevant coursework: Computer Science 1, 2, & 3, AP Calculus BC, UT Physics 1
+PROFESSIONAL EXPERIENCE
+
+IT Intern – V.R. Eaton High School (IT Practicum)	Jan 2026 – May 2026
+	•	Diagnosed and repaired student Chromebooks: replaced screens, keyboards, and internal components.
+	•	Resolved help desk tickets and provided campus-wide IT support under faculty mentorship.
+Summer IT Intern – Range Resources	Jun – Jul 2025
+	•	Shadowed cybersecurity, networking, and IT operations teams at an enterprise oil & gas company.
+	•	Observed real-world deployment of Microsoft Defender, Cisco networking tools, and LogRhythm SIEM for threat detection.
+Programming Lead – Reach Robotics / EHS Robotics Team	Jan 2025 – May 2026
+	•	Lead and coordinate programming team strategy across off-season and competition season (2025 BEST Robotics: Factoids).
+	•	Mentor teammates in VEX-V5 C++, Python, and Circuit Python Gizmo for robot control systems.
+
+PROJECTS & INDEPENDENT DEVELOPMENT
+
+Lexably – iOS Vocabulary Learning App (Full-Stack, Solo Developer)	May 2024 – Present
+	•	Built a full-stack iOS app using SwiftUI and CloudKit; designed custom UI/UX from wireframe to App Store submission.
+	•	Engineered gamified study modules, premium subscription flows (StoreKit), and adaptive learning algorithms.
+	•	Achieved 200+ downloads and active users within 2 months of launch with zero marketing budget.
+Cross-Platform Incremental Mobile Game (Unity / C#)	2025 – Present
+	•	Architecting and developing a cross-platform mobile game in Unity (C#) targeting iOS and Android.
+	•	Implementing game economy systems, save/load state management, and adaptive difficulty scaling.
+
+EXTRACURRICULAR ACTIVITIES & AWARDS
+	•	DECA (Business): 2-time State Qualifier - Entrepreneurship Innovation Plan; Semi-Finalist
+	•	UIL Computer Science: Competitive programming in Java; regional-level problem solving
+	•	Competitive Programming: 1st Place, Lockheed Martin Code Quest (Advanced Division)
+	•	Green Cord Award: 150+ Hours of Community Service 
+
+TECHNICAL SKILLS & CERTIFICATIONS
+	•	Languages & Frameworks: Swift/SwiftUI, Python, Java, C# (Unity), C++, SQL, Godot, CircuitPython
+	•	Tools & Platforms: iOS App Development (Xcode), Cloud Kit, Unity, Microsoft Defender, Cisco, LogRhythm SIEM
+	•	Certifications: IT Fundamentals Pro, Microsoft Office Specialist, PCEP, PCAP, Adobe Illustrator, CSB, ESB, OSHA

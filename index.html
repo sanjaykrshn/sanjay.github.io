@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="description" content="Sanjay Krishnan resume and downloadable PDF.">
+    <title>Sanjay Krishnan | Resume</title>
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero" aria-labelledby="page-title">
+        <nav class="nav" aria-label="Resume actions">
+          <a class="brand" href="./" aria-label="Sanjay Krishnan home">
+            <span class="mark" aria-hidden="true">SK</span>
+            <span>Sanjay Krishnan</span>
+          </a>
+          <div class="nav-actions">
+            <a class="ghost-link" id="openPdfLink" href="assets/resume.pdf" target="_blank" rel="noopener">Open PDF</a>
+            <a class="primary-link" id="downloadPdfLink" href="assets/resume.pdf" download>Download</a>
+          </div>
+        </nav>
+
+        <section class="intro">
+          <p class="eyebrow" id="updatedLabel">Resume</p>
+          <h1 id="page-title">Sanjay Krishnan</h1>
+          <p class="lede" id="summaryText">
+            Computer Science student at UT Austin with hands-on experience in software development, IT operations, robotics programming, and mobile app/game development.
+          </p>
+          <div class="meta-row" aria-label="Profile details">
+            <span id="roleText">Computer Science Student</span>
+            <span id="locationText">Austin, TX / Fort Worth, TX</span>
+          </div>
+        </section>
+      </header>
+
+      <section class="workspace" aria-label="Resume viewer and text">
+        <section class="viewer-panel" aria-labelledby="viewer-title">
+          <div class="panel-heading">
+            <div>
+              <p class="kicker">PDF Viewer</p>
+              <h2 id="viewer-title">Resume Preview</h2>
+            </div>
+            <a class="icon-link" id="downloadDocxLink" href="assets/resume.docx" download>DOCX</a>
+          </div>
+          <iframe id="pdfFrame" class="pdf-frame" src="assets/resume.pdf#view=FitH" title="Sanjay Krishnan resume PDF"></iframe>
+        </section>
+
+        <aside class="text-panel" aria-labelledby="text-title">
+          <div class="panel-heading">
+            <div>
+              <p class="kicker">Copyable Text</p>
+              <h2 id="text-title">Plain Text</h2>
+            </div>
+            <button class="copy-button" id="copyResumeButton" type="button">Copy</button>
+          </div>
+          <pre id="resumeText" class="resume-text" tabindex="0">Loading resume text...</pre>
+          <p class="status" id="copyStatus" aria-live="polite"></p>
+        </aside>
+      </section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
