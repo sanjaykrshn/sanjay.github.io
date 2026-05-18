@@ -231,13 +231,33 @@ h2 {
   color: var(--text);
 }
 
-.pdf-frame {
-  display: block;
+.pdf-viewer {
   width: 100%;
   height: min(86vh, 980px);
   min-height: 620px;
-  border: 0;
+  overflow: auto;
+  padding: 22px;
   background: #151517;
+  text-align: center;
+}
+
+#pdfCanvas,
+.preview-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.35);
+}
+
+.preview-image {
+  display: none;
+}
+
+.pdf-status {
+  margin: 14px 0 0;
+  color: var(--faint);
+  font-size: 0.84rem;
 }
 
 .text-panel {
@@ -326,8 +346,12 @@ h2 {
     padding: 15px;
   }
 
-  .pdf-frame,
   .resume-text {
     min-height: 540px;
+  }
+
+  .pdf-viewer {
+    height: auto;
+    min-height: 0;
   }
 }

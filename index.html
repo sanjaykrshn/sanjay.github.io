@@ -45,7 +45,11 @@
             </div>
             <a class="icon-link" id="downloadDocxLink" href="assets/resume.docx" download>DOCX</a>
           </div>
-          <iframe id="pdfFrame" class="pdf-frame" src="assets/resume.pdf#view=FitH" title="Sanjay Krishnan resume PDF"></iframe>
+          <div id="pdfViewer" class="pdf-viewer" aria-label="Rendered PDF resume preview">
+            <canvas id="pdfCanvas"></canvas>
+            <img id="resumePreview" class="preview-image" src="assets/resume-preview.png" alt="Preview of Sanjay Krishnan resume">
+            <p id="pdfStatus" class="pdf-status">Loading PDF preview...</p>
+          </div>
         </section>
 
         <aside class="text-panel" aria-labelledby="text-title">
